@@ -1,0 +1,6 @@
+/* Loads Tailwind CSS. Tailwind v4 needs no tailwind.config.js or postcss.config.js */
+@import "tailwindcss";
+
+body {
+  background-color: #faf9fb;
+}

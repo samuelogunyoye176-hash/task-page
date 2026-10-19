@@ -1,0 +1,19 @@
+{
+  // TypeScript settings for the React app.
+  // TypeScript only CHECKS our code here ("noEmit") - Vite does the actual building.
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",   // let Vite resolve imports
+    "jsx": "react-jsx",              // understand JSX (<div>...</div>)
+    "types": ["vite/client"],        // types for image imports and import.meta.env
+    "strict": true,                  // catch as many mistakes as possible
+    "noEmit": true,
+    "isolatedModules": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,          // warn about variables we never use
+    "noUnusedParameters": true
+  },
+  "include": ["src"]
+}
